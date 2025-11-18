@@ -1,6 +1,16 @@
-@media screen and (min-width: 1200px){
-    .ms-col{
-        width: calc(100% / 2 -20px / 2);
+
+@media (min-width: 768px) {
+    .ms-col {
+        width: calc(100% / 2 - 20px);
     }
-    
+}
+
+@media (min-width: 1024px) {
+    .ms-col {
+        width: calc(100% / 3 - 20px);
+    }
+
+     .main-card{
+        width:70%;
+    } 
 }
